@@ -21,7 +21,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: dangcongphung1/curriculum-back
+        repository: dangcongphung/curriculum-back
         dockerfile: curriculum-back/Dockerfile
         tags: latest
 
@@ -37,6 +37,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: dangcongphung1/curriculum-front
+        repository: dangcongphung/curriculum-front
         dockerfile: curriculum-front/Dockerfile
         tags: latest
